@@ -10,28 +10,21 @@
 <body>
   <section class="user-data">
     <div class="data">
-      <form action="" class="signup" id="form">
-        <h2 class="form-signup-header">
-          Facebook
-        </h2>
-        <div class="content-email" id="div-email">
-          <label for="email" class="only-email">Email:</label><br/>
-          <input type="email" id="email" class="complete-data" autofocus="" placeholder="Escribe aquí un e-mail válido">
-          <p id="read-email" class="red"></p>
-        </div>
-
-        <div class="content-password" id="div-password">
-          <label for="password" class="only-password">Password:</label><br/>
-          <input type="password" id="password" autofocus="" placeholder="Escribe aquí tu password">
-          <p id="read-password" class="red"></p>
-        </div>
-
-        <br/>
-        <button id="login" class="button-submit" type="submit">Login</button>
-
-      </form>
+      <h2 class="form-signup-header">Facebook</h2>
+      <label for="email" class="only-email">Email:</label>
+      <input type="text" id="email" class="complete-data" autofocus="autofocus" placeholder="Ingrese un e-mail válido">
+      <span id="read-email" class="read"></span>
+      <br/>
+      <label for="password" class="only-password">Password:</label>
+      <input type="password" id="password" autofocus="autofocus" placeholder="Ingrese su password">
+      <span id="read-password" class="read"></span>
+      <br/>
+      <button type="submit" id="login" class="button-submit">Login</button>
     </div>
   </section>
-<script src="assets/js/app.js"></script>
+  <!-- javascript -->
+  <script src="assets/js/storage.js"></script>
+  <script src="assets/js/login.js"></script>
+  <!-- javascript -->
 </body>
 </html>
